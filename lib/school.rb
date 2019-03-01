@@ -25,7 +25,7 @@ class School
   end 
   
   def student_grade(grade)
-    @roster.
+    @roster.fetch(grade)
   end 
 end 
 
