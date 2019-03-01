@@ -29,7 +29,7 @@ class School
   end 
   
   def sort
-    @roster.map {|grade, students| students.sort}
+    binding.pry
   end 
   
 end 
