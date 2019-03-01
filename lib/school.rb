@@ -27,5 +27,9 @@ class School
   def grade(grade)
     @roster.fetch(grade)
   end 
+  
+  def sort(roster)
+  end 
+  
 end 
 
