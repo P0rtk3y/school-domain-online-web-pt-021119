@@ -9,6 +9,8 @@ class School
     @school 
   end
   
-  
+  def roster 
+    @roster 
+  end 
 end 
 
