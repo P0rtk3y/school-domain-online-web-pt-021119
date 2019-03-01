@@ -26,7 +26,6 @@ class School
   
   def grade(grade)
     @roster.fetch(grade)
-    binding.pry
   end 
 end 
 
