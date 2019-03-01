@@ -30,6 +30,7 @@ class School
   
   def sort
     @roster.values.sort 
+    binding.pry
   end 
   
 end 
