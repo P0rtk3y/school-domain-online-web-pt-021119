@@ -17,6 +17,7 @@ class School
       @roster[age] = []
       @roster[age] << name 
       @roster 
+      binding.pry
   end 
 end 
 
